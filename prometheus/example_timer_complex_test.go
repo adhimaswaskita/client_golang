@@ -16,7 +16,7 @@ package prometheus_test
 import (
 	"net/http"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus"
 )
 
 // apiRequestDuration tracks the duration separate for each HTTP status

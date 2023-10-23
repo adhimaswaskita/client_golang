@@ -26,7 +26,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/adhimaswaskita/client_golang/prometheus/internal"
 
 	"github.com/cespare/xxhash/v2"
 	dto "github.com/prometheus/client_model/go"

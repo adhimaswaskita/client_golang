@@ -59,7 +59,7 @@ linters-settings:
       - (*github.com/cespare/xxhash/v2.Digest).WriteString
       - (*bufio.Writer).WriteRune
   goimports:
-    local-prefixes: github.com/prometheus/client_golang
+    local-prefixes: github.com/adhimaswaskita/client_golang
   gofumpt:
     extra-rules: true
   revive:

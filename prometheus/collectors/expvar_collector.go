@@ -13,7 +13,7 @@
 
 package collectors
 
-import "github.com/prometheus/client_golang/prometheus"
+import "github.com/adhimaswaskita/client_golang/prometheus"
 
 // NewExpvarCollector returns a newly allocated expvar Collector.
 //

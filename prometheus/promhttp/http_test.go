@@ -26,7 +26,7 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus"
 )
 
 type errorCollector struct{}

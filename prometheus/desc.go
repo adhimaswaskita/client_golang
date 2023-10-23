@@ -23,7 +23,7 @@ import (
 	"github.com/prometheus/common/model"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/adhimaswaskita/client_golang/prometheus/internal"
 )
 
 // Desc is the descriptor used by every Prometheus Metric. It is essentially

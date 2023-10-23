@@ -30,4 +30,4 @@ generate-go-collector-test-files:
 
 .PHONY: fmt
 fmt: common-format
-	$(GOIMPORTS) -local github.com/prometheus/client_golang -w .
+	$(GOIMPORTS) -local github.com/adhimaswaskita/client_golang -w .

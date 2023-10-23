@@ -31,8 +31,8 @@
 //		"log"
 //		"net/http"
 //
-//		"github.com/prometheus/client_golang/prometheus"
-//		"github.com/prometheus/client_golang/prometheus/promhttp"
+//		"github.com/adhimaswaskita/client_golang/prometheus"
+//		"github.com/adhimaswaskita/client_golang/prometheus/promhttp"
 //	)
 //
 //	type metrics struct {

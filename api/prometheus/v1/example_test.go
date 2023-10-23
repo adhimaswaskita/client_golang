@@ -24,8 +24,8 @@ import (
 
 	"github.com/prometheus/common/config"
 
-	"github.com/prometheus/client_golang/api"
-	v1 "github.com/prometheus/client_golang/api/prometheus/v1"
+	"github.com/adhimaswaskita/client_golang/api"
+	v1 "github.com/adhimaswaskita/client_golang/api/prometheus/v1"
 )
 
 func ExampleAPI_query() {

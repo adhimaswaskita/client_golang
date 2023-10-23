@@ -28,8 +28,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/adhimaswaskita/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus/internal"
 
 	"github.com/hashicorp/go-version"
 )
@@ -139,7 +139,7 @@ func rmCardinality() int {
 		}
 		// Prometheus also doesn't have buckets for -Inf, so they need to be omitted.
 		// See the following PR for more information:
-		// https://github.com/prometheus/client_golang/pull/1049
+		// https://github.com/adhimaswaskita/client_golang/pull/1049
 		if buckets[0] == math.Inf(-1) {
 			cardinality--
 		}

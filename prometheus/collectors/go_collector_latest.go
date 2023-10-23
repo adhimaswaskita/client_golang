@@ -19,8 +19,8 @@ package collectors
 import (
 	"regexp"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/adhimaswaskita/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus/internal"
 )
 
 var (
@@ -68,7 +68,7 @@ var (
 //
 // NOTE(bwplotka): The above represents runtime.MemStats statistics, but they are
 // actually implemented using new runtime/metrics package. (except skipped go_memstats_gc_cpu_fraction
-// -- see  https://github.com/prometheus/client_golang/issues/842#issuecomment-861812034 for explanation).
+// -- see  https://github.com/adhimaswaskita/client_golang/issues/842#issuecomment-861812034 for explanation).
 //
 // Some users might want to disable this on collector level (although you can use scrape relabelling on Prometheus),
 // because similar metrics can be now obtained using WithGoCollectorRuntimeMetrics. Note that the semantics of new

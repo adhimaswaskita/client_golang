@@ -26,8 +26,8 @@ import (
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/adhimaswaskita/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus/promhttp"
 )
 
 func ExampleGauge() {

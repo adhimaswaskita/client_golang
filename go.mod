@@ -1,4 +1,4 @@
-module github.com/prometheus/client_golang
+module github.com/adhimaswaskita/client_golang
 
 go 1.19
 
@@ -17,11 +17,12 @@ require (
 require (
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/jpillora/backoff v1.0.0 // indirect
-	github.com/kr/pretty v0.3.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.4 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/mwitkow/go-conntrack v0.0.0-20190716064945-2f068394615f // indirect
+	github.com/prometheus/client_golang v1.15.1 // indirect
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
@@ -29,4 +30,4 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
-exclude github.com/prometheus/client_golang v1.12.1
+exclude github.com/adhimaswaskita/client_golang v1.12.1

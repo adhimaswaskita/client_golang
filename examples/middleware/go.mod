@@ -2,7 +2,7 @@ module github.com/jessicalins/instrumentation-practices-examples/middleware
 
 go 1.19
 
-require github.com/prometheus/client_golang v1.17.0
+require github.com/adhimaswaskita/client_golang v1.17.0
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect

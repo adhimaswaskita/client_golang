@@ -19,9 +19,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/collectors"
-	"github.com/prometheus/client_golang/prometheus/promhttp"
+	"github.com/adhimaswaskita/client_golang/prometheus"
+	"github.com/adhimaswaskita/client_golang/prometheus/collectors"
+	"github.com/adhimaswaskita/client_golang/prometheus/promhttp"
 
 	"github.com/jessicalins/instrumentation-practices-examples/middleware/httpmiddleware"
 )
